@@ -16,7 +16,7 @@ public partial class Program
     private static readonly ITelegramBotClient BotClient = new TelegramBotClient("8188680902:AAGk8224w5r_wMLtsnTiBskREhui8_GfTOw");
     private static readonly ConcurrentDictionary<long, UserState> UserStates = new();
     private static readonly string LogFilePath = "user_logs.txt";
-    private static readonly string DeepLApiKey = "e820cdf2-fbb2-4c3e-8694-0336352f44ee:fx"; // Вставте ваш API ключ DeepL
+    private static readonly string DeepLApiKey = "e820cdf2-fbb2-4c3e-8694-0336352f44ee:fx";
 
     static async Task Main()
     {
